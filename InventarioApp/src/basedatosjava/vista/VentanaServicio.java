@@ -53,7 +53,7 @@ public class VentanaServicio extends JFrame {
     private void configurarVentana() {
         setTitle("Registro de Servicios y Mantenimiento");
         setSize(760, 460);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
     }
 

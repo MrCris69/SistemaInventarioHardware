@@ -1,14 +1,12 @@
 package basedatosjava.principal;
 
-import basedatosjava.vista.VentanaComponente;
-import javax.swing.SwingUtilities;
+import basedatosjava.vista.VentanaDashboard;
 
 public class Principal {
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            VentanaComponente ventana = new VentanaComponente();
-            ventana.setVisible(true);
-        });
+        // Arrancamos el Menú Principal
+        VentanaDashboard menu = new VentanaDashboard();
+        menu.setVisible(true);
     }
 }
 

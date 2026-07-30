@@ -55,7 +55,7 @@ public class VentanaComponente extends JFrame {
         setTitle("Registro de Componentes");
         setSize(1280, 720);
         // Cuando hagamos el Dashboard esto cambiará, por ahora cerrará la aplicación
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
     }
 
