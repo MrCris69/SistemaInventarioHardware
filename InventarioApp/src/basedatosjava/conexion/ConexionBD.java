@@ -9,7 +9,7 @@ public class ConexionBD {
     // URL apuntando a la nueva base de datos sistema_taller
     private static final String URL = "jdbc:mysql://localhost:3306/sistema_taller?useSSL=false&serverTimezone=UTC";
     private static final String USUARIO = "root";
-    private static final String CLAVE = "Cral1012"; 
+    private static final String CLAVE = "dbalcocer2026"; 
     
     private ConexionBD() {
     }
