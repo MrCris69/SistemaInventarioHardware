@@ -1,20 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package basedatosjava.principal;
 
-/**
- *
- * @author crist
- */
-public class Principal {
+import basedatosjava.vista.VentanaComponente;
+import javax.swing.SwingUtilities;
 
-    /**
-     * @param args the command line arguments
-     */
+public class Principal {
     public static void main(String[] args) {
-        // TODO code application logic here
+        SwingUtilities.invokeLater(() -> {
+            VentanaComponente ventana = new VentanaComponente();
+            ventana.setVisible(true);
+        });
     }
-    
 }
